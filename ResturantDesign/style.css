@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", "sans-serif";
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url("./brooke-lark-4J059aGa5s4-unsplash.png");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  min-height: 100vh;
+}
+.container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.pre-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+.logo {
+  font-size: 2rem;
+  color: #026e78;
+  align-self: center;
+}
+.pre-nav a {
+  text-decoration: none;
+}
+.text-class {
+  font-size: 1.8rem;
+  color: #ffff;
+  align-self: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 1rem ;
+  background-color: #2d99a4;
+  flex:1 auto;
+}
+nav ul li:hover{
+    opacity: 0.8;
+}
+nav ul li a {
+    padding:1rem 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+.first-link {
+  background-color: #fff;
+}
+.first-link a {
+  color: #026e78;
+}
+.last-link {
+  background-color: #0e727b;
+}
+.main-content{
+    margin:10rem 0;
+    max-width: fit-content
+}
+
+.div-heading{
+    color:#fff;
+    background-color: #0E727B;
+    padding:1rem;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.p1{
+    background-color: #fff;
+    width:fit-content;
+    padding:1rem 0.8rem;
+    /* font-size:1.2rem;  */
+     
+}
+.p2{
+    background-color: #2D99A4;
+    width: fit-content;
+    padding:1rem 1.4rem;
+    
+
+}
+.p1 >a,.p2 >a{
+    text-decoration: none;  
+}
+.p1>a{
+    color:#2D99A4;   
+}
+.p2>a{
+    color: #fff;
+
+}
+
+@media  screen and (max-width:768px) {
+
+    .pre-nav {
+        flex-direction: column;
+        padding:0 0.5rem;
+    }
+    .main-content >*{
+        font-size: 1.4rem;
+    }
+
+
+
+    
+}
